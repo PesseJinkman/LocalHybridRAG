@@ -1,6 +1,6 @@
-# HybridSearchRAG
+# LocalHybridRAG
 
-HybridSearchRAG is a **Retrieval-Augmented Generation (RAG) framework** that combines **lexical search (BM25)** and **semantic embeddings (FAISS)** to deliver more robust and accurate document retrieval for LLM-powered applications. It includes utilities for indexing, caching, hybrid retrieval, and integration with local LLMs such as Ollama.
+LocalHybridRAG is a **Retrieval-Augmented Generation (RAG) framework** that combines **lexical search (BM25)** and **semantic embeddings (FAISS)** to deliver more robust and accurate document retrieval for LLM-powered applications. It includes utilities for indexing, caching, hybrid retrieval, and integration with local LLMs such as Ollama.
 
 ---
 
@@ -20,7 +20,7 @@ HybridSearchRAG is a **Retrieval-Augmented Generation (RAG) framework** that com
 ## Project Structure
 
 ```
-HybridSearchRAG/
+LocalHybridRAG/
 │── bm25_lexical.py       # BM25 lexical search implementation
 │── caching.py            # Query/result caching utilities
 │── cli.py                # CLI entry point
@@ -42,8 +42,8 @@ HybridSearchRAG/
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/HybridSearchRAG.git
-cd HybridSearchRAG
+git clone https://github.com/yourusername/LocalHybridRAG.git
+cd LocalHybridRAG
 pip install -r requirements.txt
 ```
 
@@ -56,12 +56,12 @@ pip install -r requirements.txt
 ### CLI
 Run the project using the CLI:
 ```bash
-python -m HybridSearchRAG --query "How do I use reasoning models in GPT-5?"
+python -m LocalHybridRAG --query "How do I use reasoning models in GPT-5?"
 ```
 
 ### As a Module
 ```python
-from HybridSearchRAG.hybrid import HybridRetriever
+from LocalHybridRAG.hybrid import HybridRetriever
 
 retriever = HybridRetriever()
 results = retriever.search("What’s new in GPT-5?")
