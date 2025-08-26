@@ -86,10 +86,10 @@ These can be used to test indexing and retrieval workflows.
 
 ## Roadmap
 
-- [ ] Add support for vector databases (Pinecone, Milvus).
-- [ ] Expand LLM backends beyond Ollama.
-- [ ] API server for remote retrieval.
-- [ ] Evaluation framework for retrieval quality.
+- Add support for vector databases (Pinecone, Milvus).
+- Expand LLM backends beyond Ollama.
+- API server for remote retrieval.
+- Evaluation framework for retrieval quality.
 
 ---
 
