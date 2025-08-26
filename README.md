@@ -1,4 +1,4 @@
-# LocalHybridRAG
+# Local Hybrid RAG
 
 LocalHybridRAG is a **Retrieval-Augmented Generation (RAG) framework** that combines **lexical search (BM25)** and **semantic embeddings (FAISS)** to deliver more robust and accurate document retrieval for LLM-powered applications. It includes utilities for indexing, caching, hybrid retrieval, and integration with local LLMs such as Ollama.
 
